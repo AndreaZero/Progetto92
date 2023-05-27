@@ -17,6 +17,8 @@ import logo from "../data/images/logo.png";
 import teamwork from "../data/images/teamwork.jpg";
 
 export function Home() {
+
+
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
@@ -137,23 +139,23 @@ Siamo pronti a trasformare la vostra visione in realtà.
         </div>
       </section>
       <section className="relative bg-blue-gray-50/50 py-24 px-4">
-        <div className="container mx-auto">
-        
-          <PageTitle heading="Vuoi essere contattato?">
-            Completa il form e richiedi informazioni!
-          </PageTitle>
-          <form className="mx-auto mt-12 max-w-3xl text-center">
-            <div className="mb-8 flex gap-8">
-              <Input variant="standard" size="lg" label="Il tuo nome" />
-              <Input variant="standard" size="lg" label="Email" />
-            </div>
-            <Textarea variant="standard" size="lg" label="Messaggio" rows={8} />
-            <Button variant="gradient" size="lg" className="mt-8">
-              Invia messaggio
-            </Button>
-          </form>
-        </div>
-      </section>
+  <div className="container mx-auto">
+    <PageTitle heading="Vuoi essere contattato?">
+      Completa il form e richiedi informazioni!
+    </PageTitle>
+    <form className="mx-auto mt-12 max-w-3xl text-center" action="https://formspree.io/f/xrgvvoqr" method="POST">
+      <div className="mb-8 flex gap-8">
+        <Input variant="standard" size="lg" label="Il tuo nome" name="name" />
+        <Input variant="standard" size="lg" label="Email" name="_replyto" />
+      </div>
+      <Textarea variant="standard" size="lg" label="Messaggio" rows={8} name="message" />
+      <Button type="submit" variant="gradient" size="lg" className="mt-8">
+        Invia messaggio
+      </Button>
+    </form>
+  </div>
+</section>
+
       <div className="bg-blue-gray-50/50">
         <Footer />
       </div>
