@@ -14,38 +14,22 @@ export const teamData = [
   {
     img: "/img/teseco.png",
     name: "Te.Se.Co",
-    position: "Federico ..",
+    position: "Federico Insalaco",
     socials: [
       {
         color: "light-blue",
-        name: "twitter",
-      },
-      {
-        color: "blue",
-        name: "facebook",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        name: "linkedin",
       },
     ],
   },
   {
     img: "/img/tangini.png",
     name: "Studio Tangini",
-    position: "di Lorenzo & Paolo Tangini",
+    position: "di Lorenzo angini",
     socials: [
       {
         color: "light-blue",
-        name: "twitter",
-      },
-      {
-        color: "blue",
-        name: "facebook",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        name: "linkedin",
       },
     ],
   },
