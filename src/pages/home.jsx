@@ -88,6 +88,10 @@ la nostra missione è offrire un servizio completo. Dalle pratiche urabanistiche
                     alt="Card Image"
                     src={teamwork}
                     className="h-full w-full"
+                    style={{
+                      objectFit: 'contain',
+                      borderRadius: '0.4rem'
+                    }}
                   />
                 </CardHeader>
                 <CardBody>
