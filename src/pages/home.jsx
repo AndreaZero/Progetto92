@@ -38,7 +38,7 @@ export function Home() {
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
               Costituita da un team di professionisti con esperienza decennale,<br></br>
-la nostra missione è offrire un servizio completo. Dalle pratiche urabanistiche a quelle catastali dalla sicurezza sul lavoro all'efficientamento energetico. 
+la nostra missione è offrire un servizio completo. Dalla sicurezza sul lavoro all'efficientamento energetico, dall'urbanistica al catasto.
 <br></br><br></br>Scarica il nostro Catalogo dalla sezione servizi.
               </Typography>
             </div>
